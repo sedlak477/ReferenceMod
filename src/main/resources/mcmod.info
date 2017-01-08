@@ -1,0 +1,9 @@
+[{
+  "modid": "testmod",
+  "name": "Test Mod",
+  "description": "-- TEST MOD --",
+  "version": "0.1",
+  "mcversion": "1.10.2",
+  "authorList": ["sedlak477"],
+  "credits": "I'd like to thank my mother and father."
+}]
