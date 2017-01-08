@@ -23,7 +23,8 @@ public class ClientProxy extends CommonProxy {
     public void init(FMLInitializationEvent e) {
         super.init(e);
         FeatureLoader.registerItemRenderer(Features.class, TestMod.MODID);
-        FeatureLoader.registerBlockRenderer(Features.class, TestMod.MODID);
+        //I don't need this because reasons so i'll delete it properly in the future
+        //FeatureLoader.registerBlockRenderer(Features.class, TestMod.MODID);
     }
 
     @Override

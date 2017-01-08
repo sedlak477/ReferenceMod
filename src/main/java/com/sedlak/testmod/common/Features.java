@@ -9,7 +9,6 @@ import com.sedlak.testmod.common.items.ItemBlockBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
 
 public class Features {
 
@@ -18,7 +17,7 @@ public class Features {
 
     @Feature
     public static final Block justABlock = new BlockBase("just_a_block", Material.GOURD).setLightLevel(1.0f).setCreativeTab(TestMod.defaultTab);
-    //Item in inventory that get's placed by the player
+    //Item in players inventory that gets placed by the player
     @Feature
     public static final Item justABlockItem = new ItemBlockBase(justABlock);
 
